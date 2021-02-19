@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(201, 43, 43, 0.836);
+}
+
+.central_card {
+    margin: auto;
+    margin-top: 100px;
+    width: 800px;
+    height: 250px;
+    background-color: rgba(5, 104, 5, 0.822);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(19, 18, 18, 0.322);
+}
+
+.central_card h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(255, 251, 251) ;
+    text-shadow: 3px 3px rgba(19, 18, 18, 0.322);
+}
+
+.my_id_container{
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(19, 18, 18, 0.322);
+}
+
+#my_id {
+    text-align: center;
+    padding-top: 10px;
+}
