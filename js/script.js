@@ -67,3 +67,10 @@ else if (età_passeggero > 65) {
 }
 
 
+if ((isNaN(km)) || (km == "") || (km == "undefined")) {
+    alert("L'importo totale è di NaN€");
+}
+
+else if ((isNaN(età_passeggero)) || (età_passeggero == "") || (età_passeggero == "undefined")) {
+    alert("L'importo totale è di NaN€"); 
+}
