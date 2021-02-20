@@ -44,9 +44,7 @@ if (età_passeggero < 18) {
     document.getElementById("my_id_2").innerHTML = età_passeggero;
 
     document.getElementById("my_id_3").innerHTML = importo_minorenni;
-}
-
-else if ((età_passeggero >= 18) && (età_passeggero <= 65)) {
+} else if ((età_passeggero >= 18) && (età_passeggero <= 65)) {
     // alert("L' importo totale è di €" + importo);
 
     document.getElementById("my_id_1").innerHTML = km;
@@ -54,9 +52,7 @@ else if ((età_passeggero >= 18) && (età_passeggero <= 65)) {
     document.getElementById("my_id_2").innerHTML = età_passeggero;
 
     document.getElementById("my_id_3").innerHTML = importo;
-}
-
-else if (età_passeggero > 65) {
+} else if (età_passeggero > 65) {
     // alert("L'importo totale è di €" + importo_over_65);
 
     document.getElementById("my_id_1").innerHTML = km;
@@ -67,10 +63,12 @@ else if (età_passeggero > 65) {
 }
 
 
+
+
+
+
 if ((isNaN(km)) || (km == "") || (km == "undefined")) {
     alert("L'importo totale è di NaN€");
-}
-
-else if ((isNaN(età_passeggero)) || (età_passeggero == "") || (età_passeggero == "undefined")) {
+} else if ((isNaN(età_passeggero)) || (età_passeggero == "") || (età_passeggero == "undefined")) {
     alert("L'importo totale è di NaN€"); 
 }
