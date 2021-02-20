@@ -37,7 +37,7 @@ importo_over_65 = (km * 0.21) - (importo / 100 * 40);
 
 
 if (età_passeggero < 18) {
-    alert("L'importo totale è di €" + importo_minorenni);
+    // alert("L'importo totale è di €" + importo_minorenni);
 
     document.getElementById("my_id_1").innerHTML = km;
 
@@ -47,7 +47,7 @@ if (età_passeggero < 18) {
 }
 
 else if ((età_passeggero >= 18) && (età_passeggero <= 65)) {
-    alert("L' importo totale è di €" + importo);
+    // alert("L' importo totale è di €" + importo);
 
     document.getElementById("my_id_1").innerHTML = km;
 
@@ -57,7 +57,7 @@ else if ((età_passeggero >= 18) && (età_passeggero <= 65)) {
 }
 
 else if (età_passeggero > 65) {
-    alert("L'importo totale è di €" + importo_over_65);
+    // alert("L'importo totale è di €" + importo_over_65);
 
     document.getElementById("my_id_1").innerHTML = km;
 
