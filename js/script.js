@@ -39,19 +39,31 @@ importo_over_65 = (km * 0.21) - (importo / 100 * 40);
 if (età_passeggero < 18) {
     alert("L'importo totale è di €" + importo_minorenni);
 
-    document.getElementById("my_id").innerHTML = importo_minorenni;
+    document.getElementById("my_id_1").innerHTML = km;
+
+    document.getElementById("my_id_2").innerHTML = età_passeggero;
+
+    document.getElementById("my_id_3").innerHTML = importo_minorenni;
 }
 
 else if ((età_passeggero >= 18) && (età_passeggero <= 65)) {
     alert("L' importo totale è di €" + importo);
 
-    document.getElementById("my_id").innerHTML = importo;
+    document.getElementById("my_id_1").innerHTML = km;
+
+    document.getElementById("my_id_2").innerHTML = età_passeggero;
+
+    document.getElementById("my_id_3").innerHTML = importo;
 }
 
 else if (età_passeggero > 65) {
     alert("L'importo totale è di €" + importo_over_65);
 
-    document.getElementById("my_id").innerHTML = importo_over_65;
+    document.getElementById("my_id_1").innerHTML = km;
+
+    document.getElementById("my_id_2").innerHTML = età_passeggero;
+
+    document.getElementById("my_id_3").innerHTML = importo_over_65;
 }
 
 

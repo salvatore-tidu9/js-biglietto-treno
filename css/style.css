@@ -28,30 +28,30 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 800px;
-    height: 200px;
+    height: 430px;
     background-image: linear-gradient(to right, rgba(0,100,98,0.8), rgba(166,32,36,0.7));
     border-radius: 10px;
     box-shadow: 3px 3px rgba(19, 18, 18, 0.164);
 }
 
-.central_card h2 {
+.prompt_container h3 {
     text-align: center;
-    padding-top: 50px;
+    padding: 30px 0;
     color: rgb(255, 251, 251) ;
     text-shadow: 3px 3px rgba(19, 18, 18, 0.322);
 }
 
 .my_id_container{
     margin: auto;
-    margin-top: 30px;
     width: 200px;
-    height: 50px;
+    height: 40px;
     background-color: rgb(182, 182, 182);
     border-radius: 10px;
     box-shadow: 5px 5px rgba(19, 18, 18, 0.322);
 }
 
-#my_id {
+[id*=my_id] {
     text-align: center;
     padding-top: 10px;
+    text-shadow: 2px 2px rgba(19, 18, 18, 0.322);
 }
